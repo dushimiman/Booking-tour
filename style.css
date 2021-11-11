@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.topnav{
+    width: 95%;
+    
+    background-color:  rgb(29, 90, 29);
+    padding: 10px 10px 30px 50px;
+    display: flex;
+    box-shadow: 3px 3px rgb(188, 214, 188);
+}
+.logo{
+    width: 5%;
+    height: 10px; 
+     background-color: whitesmoke; 
+    text-align: center;
+
+    }
+.navbar-right{
+    height: 70px;
+    width: 90%;
+   color:  whitesmoke; 
+   overflow: hidden;
+
+}
+.topnav a{
+    color:whitesmoke;
+    padding: 20px;
+    font-size: medium;
+float: right;
+text-decoration: none;
+height: 100%;
+}
+.topnav a:hover{
+    background: rgb(70, 75, 70);
+    font-size: 20px;
+    color:brown;
+    text-decoration: underline;
+}
+/* .home-container{
+    background-color: rgb(141, 110, 110);
+    padding: 15px 10px 15px 50px ;
+} */
+body{
+    background-image:  url(./images/rwanda-tourism.jpg);
+    
+ background-size: cover;
+    height: 90vh;
+    background-attachment: fixed;
+}
+/* .home-container p{
+    color: black;
+    margin-left: 60%;
+    font-size: 28px;
+     background-color: rgb(241, 235, 235); 
+    margin-top: 20px;
+    padding: 10px 20px 20px 20px;
+    margin-right: 50px;
+    float: right;
+    width: 30%;
+    /* height: 70%; */
+    /* margin-right: 30%; */ 
+
+/* }
+ */
+ .quote{
+     margin-left: 60%;
+     margin-top: 2px; 
+     background-color:rgba(236, 227, 227, 0.562);
+     width: 30%;
+     font-size: 28px;
+     border: solid 2px rgb(116, 136, 116);
+     box-shadow:  blue;
+     padding: 10px 20px 20px 20px ;
+     height: 85%;
+ }
+.img{
+    width: 150%;
+}
+.home-container{
+    height: 70%;
+}
+.home-container h1{
+    margin-left: 20%;
+    font-size: 40px;
+    color:whitesmoke;
+    /* background-color: black; */
+    padding-top: 5%;
+
+}
+button{
+    margin-top: 70px;
+    font-size: x-large ;
+    margin-left: 35%;
+    border-radius: 10px; 
+    text-align: center;
+}
+.tour-section-container{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    margin-top: 10%;
+}
+.book-sort-div{
+    height: 50vh;
+    width: 100%;
+    /* background-color: rgb(228, 185, 185); */
+    display: flex;
+}
+.book-sort{
+    height: 50vh;
+    width: 40%;
+    /* background-color: rgb(128, 173, 128); */
+}
+.book-sort h1{
+    font-size: 40px;
+    padding: 10%;
+}
+.book-sort label{
+    font-size: 25px;
+    padding: 10%;
+}
+.book-sort select{
+    width: 50%;
+    margin-left: 10%;
+    height: 10%;
+}
+.book-sort button{
+    margin-left: 30%;
+    width: 50%;
+    height: 15%;
+    border-radius: 10px;
+    font-size: large;
+    background-color: rgb(145, 137, 123);
+}
+.image img{
+    width: 600px;
+}
+.sinup{
+    margin-left: 50%;
+    background-color: rgb(221, 214, 214);
+    width: 30%;
+    height: 70%;
+    padding-top: 5%;
+    padding-left: 5%;
+    border: solid 2px rgb(194, 125, 125);
+    border-radius: 20%;
+   
+}
+.sinup button{
+    font-size: 25px;
+    margin-left: 30%;
+    margin-top: 2px;
+    padding: 5px 5px;
+}
+.account{
+    font-size: 30px; 
+    background-color: white;
+     margin-left: 50%;
+     margin-top: 10%;
+     width: 20%;
+     height: 60%;
+     padding-left: 15%;
+     border: solid 2px rgb(194, 125, 125);
+     border-radius: 20%;
+    
+     
+}
+.account button{
+    /* font-size: 10px; */
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.signin{
+    font-size: 30px; 
+    background-color: white;
+     margin-left: 60%;
+     margin-top: 10%;
+     width: 20%;
+     height: 50%;
+     padding-left: 10%;
+     border: solid 2px rgb(194, 125, 125);
+     border-radius: 20%;
+     padding-top: 3%;
+    
+}
+.contactus{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+.contactus p{
+    margin-left: 30;
+}
+
+
+
+
+    
+    
+    
+
