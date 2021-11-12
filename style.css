@@ -139,13 +139,13 @@ button{
 }
 .sinup{
     margin-left: 50%;
-    background-color: rgb(221, 214, 214);
-    width: 30%;
-    height: 70%;
+    background-color: grey;
+    width: 25%;
+    height: 95%;
     padding-top: 5%;
     padding-left: 5%;
-    border: solid 2px rgb(194, 125, 125);
-    border-radius: 20%;
+    border: solid 2px rgb(14, 12, 12);
+    border-radius: 10%;
    
 }
 .sinup button{
@@ -174,24 +174,49 @@ button{
 }
 .signin{
     font-size: 30px; 
-    background-color: white;
+    background-color: grey;
      margin-left: 60%;
      margin-top: 10%;
      width: 20%;
-     height: 50%;
+     height: 60%;
      padding-left: 10%;
-     border: solid 2px rgb(194, 125, 125);
-     border-radius: 20%;
+     border: solid 2px rgb(19, 18, 18);
+     border-radius: 10%;
      padding-top: 3%;
     
 }
 .contactus{
     background-color: white;
     width: 100%;
-    height: 100%;
+    height: 150vh;
+   
+
 }
 .contactus p{
-    margin-left: 30;
+    margin-left: 40%;
+    font-size: large;
+    margin-top: 5%;
+    margin-left: 40%;
+}
+.contact{
+   
+    width: 20%;
+    
+}
+.general{
+    margin-left: 0px;
+    margin-top: 10%;
+    font-size: 20px;
+    /* background-color: black; */
+}
+.img3{
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.about{
+    background-color: white;
+    height: 150vh;
+    width: 100%;
 }
 
 
